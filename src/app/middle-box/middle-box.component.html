@@ -1,0 +1,18 @@
+<div id="middle-box" class="col-md-8 col-lg-8">
+  <div class="content-box shadow-depth-3">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Job Name</th>
+          <th>Job Status</th>
+          <th>#Followed</th>
+        </tr>
+        <tr *ngFor="let job of jobs">
+          <td>{{ job.name }}</td>
+          <td>{{ job.status }}</td>
+          <td>{{ job.num_tasks }}</td>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>

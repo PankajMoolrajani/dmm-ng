@@ -1,0 +1,22 @@
+#left-menu {
+  padding: 0;
+}
+
+#left-menu a.list-group-item {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: inherit;
+  border-left: 0;
+  border-right: 0;
+  border: 0;
+  border-bottom: 0;
+}
+
+#left-menu a:hover {
+  background-color: #F5F5F6;
+}
+.left-menu-heading {
+  font-weight: bold;
+}
